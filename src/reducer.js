@@ -1,14 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
-import Table from './components/table/table.js';
+import produce from 'immer';
 
-import { reducer } from './reducer.js';
-import './index.css';
-
-/*let savedRewards = JSON.parse(localStorage.getItem("react.miles.test.rewards"));
-const initialState = {
+let savedRewards = JSON.parse(localStorage.getItem("react.miles.test.rewards"));
+export const initialState = {
   rewards : new Array(5).fill(true).map(() => new Array(5).fill(true)),
   undoStates : [],
   redoStates : [],
@@ -57,14 +50,4 @@ export function reducer(state = initialState, action) {
     default:
       return state;
   }
-}*/
-
-const store = createStore(reducer);
-
-const App = () => (
-  <Provider store={store}>
-    <Table></Table>
-  </Provider>
-);
-
-ReactDOM.render(<App />, document.getElementById('root'));
+}

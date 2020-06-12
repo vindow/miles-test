@@ -25,3 +25,10 @@ export function redo(value) {
         value
     }
 }
+
+export function save(value) {
+    return{
+        type: "SAVE",
+        value
+    }
+}
