@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/miles-test/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/miles-test/static/js/main.7088a03d.chunk.js",
+    "main.js.map": "/miles-test/static/js/main.7088a03d.chunk.js.map",
+    "runtime-main.js": "/miles-test/static/js/runtime-main.8702be23.js",
+    "runtime-main.js.map": "/miles-test/static/js/runtime-main.8702be23.js.map",
+    "static/js/2.726c3dd9.chunk.js": "/miles-test/static/js/2.726c3dd9.chunk.js",
+    "static/js/2.726c3dd9.chunk.js.map": "/miles-test/static/js/2.726c3dd9.chunk.js.map",
+    "index.html": "/miles-test/index.html",
+    "precache-manifest.135427da8a8c6eeb6fcf826a4bde295b.js": "/miles-test/precache-manifest.135427da8a8c6eeb6fcf826a4bde295b.js",
+    "service-worker.js": "/miles-test/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/miles-test/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.726c3dd9.chunk.js.LICENSE.txt": "/miles-test/static/js/2.726c3dd9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8702be23.js",
+    "static/js/2.726c3dd9.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.7088a03d.chunk.js"
+  ]
+}
